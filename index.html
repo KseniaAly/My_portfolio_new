@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <header>
+        <!--Создание хэдера и главной части: .section>.container>.hrad+.main-->
+        <div class="section">
+            <div class="container">
+                <!--Создание верхней части(хэдера):-->
+                <div class="head">
+                    <div class="col">
+                        <h3>MY</h3>
+                        <h3>PORTFOLIO</h3>
+                    </div>
+                    <div class="col">
+                        <a href="#about_me"><h4>обо мне</h4></a>
+                        <a href="#skills"><h4>навыки</h4></a>
+                        <a href="#portfolio"><h4>портфолио</h4></a>
+                        <a href="#contacts"><h4>контакты</h4></a>
+                        <a href="#career"><h4>карьера</h4></a>
+                        <a href="#feedback"><h4>обратная связь</h4></a>
+                    </div>
+                </div>
+                <!--Создание главной части: img+.first+h1+p+.button-->
+                <div class="main">
+                    <h3>верстка & frontend</h3>
+                    <h1>ДЕЛО, КОТОРЫМ Я ЖИВУ</h1>
+                    <p>Мена зовут Ксения, я учусь на веб-разработчика. Учусь создавать сайты и их дизайн.</p>
+                    <a href="#about_me"><div class="button">ПОДРОБНЕЕ</div></a>
+                    <img src="./assets/img/photo_5404801117918977616_y.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!--Создание секции "Обо мне": .section.about_me>.line+.container-->
+        <div class="section about_me" id="about_me">
+            <div class="line"></div>
+            <div class="container">
+                <!--.titul+.main+img-->
+                <div class="titul">
+                    <h1>ОБО МНЕ</h1>
+                    <img src="./assets/img/Group 2.png" alt="">
+                </div>
+                <div class="main">
+                    <div class="col">
+                        <div class="text">
+                            <h3>Мои хобби:</h3>
+                            <p>Рисование, просмотр фильмов, чтение книг, игра в DND</p>
+                        </div>
+                        <div class="grid">
+                            <img src="./assets/img/Reading.png" alt="">
+                            <img src="./assets/img/Drawing.png" alt="">
+                            <img src="./assets/img/Movies.png" alt="">
+                            <img src="./assets/img/DND.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text">
+                            <h3>Игры, в которые я играю:</h3>
+                            <p>Cyberpunk, Honkai: Star Rail, Sky</p>
+                        </div>
+                        <!--слайдер с помощью bootstrap-->
+                        <div class="slaider">
+                            <div id="carouselExample" class="carousel slide">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="./assets/img/Cyberpunk.png" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="./assets/img/Honkai.png" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="./assets/img/Sky.png" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Предыдущий</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Следующий</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img class="draw" src="./assets/img/download20230403104330 1.png" alt="">
+            </div>
+        </div>
+
+        <!--Создание секции "Мои навыки": .section.my_skills>conyainer>.titul+.main>.col*2-->
+        <div class="section my_skills" id="skills">
+            <div class="container">
+                <div class="titul">
+                    <h1>МОИ НАВЫКИ</h1>
+                    <img src="./assets/img/Group 2 (1).png" alt="">
+                </div>
+                <div class="main">
+                    <div class="col">
+                        <h1>Hard skills:</h1>
+                        <h4>• владение иностранными языками;</h4>
+                        <h4>• знание графических редакторов;</h4>
+                        <h4>• умение программировать, верстать;</h4>
+                        <h4>• знание компьютерных программ.</h4>
+                    </div>
+                    <div class="col">
+                        <h1>Soft skills:</h1>
+                        <h4>• эмоциональный интеллект;</h4>
+                        <h4>• умение договариваться и ладить с людьми;</h4>
+                        <h4>• эмпатия;</h4>
+                        <h4>• тактичность;</h4>
+                        <h4>• гуманность;</h4>
+                        <h4>• пунктуальность.</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Создание секции "Мое портфолио": .section.portfolio>.container>.card*4-->
+        <div class="section portfolio" id="portfolio">
+            <div class="container">
+                <div class="titul">
+                    <h1>МОЕ ПОРТФОЛИО</h1>
+                    <h5>Сделанные ранее сайты</h5>
+                </div>
+                <div class="main mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="card swiper-slide" style="width: 375px;">
+                            <img src="./assets/img/Mask group (2).png" class="card-img-top" alt="">
+                            <div class="card-body">
+                              <h5 class="card-title">Monochrom</h5>
+                              <p class="card-text">Второй сайт, который мы пробовали делать по макету.</p>
+                              <a href="https://kseniaaly.github.io/Monochrom_New/" class="button">ПЕРЕЙТИ НА САЙТ</a>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide" style="width: 375px;">
+                            <img src="./assets/img/Mask group(1).png" class="card-img-top" alt="">
+                            <div class="card-body">
+                              <h5 class="card-title">Mimilo</h5>
+                              <p class="card-text">Первый сайт, который мы пробовали делать по макету.</p>
+                              <a href="https://kseniaaly.github.io/Mimilo_Al/" class="button">ПЕРЕЙТИ НА САЙТ</a>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide" style="width: 375px;">
+                            <img src="./assets/img/Mask group.png" class="card-img-top" alt="">
+                            <div class="card-body">
+                              <h5 class="card-title">MoGo</h5>
+                              <p class="card-text">Перввый сайт, который мы учились делать.</p>
+                              <a href="https://kseniaaly.github.io/MoGo_Al/" class="button">ПЕРЕЙТИ НА САЙТ</a>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide" style="width: 375px;">
+                            <img src="./assets/img/Mask group(3).png" class="card-img-top" alt="">
+                            <div class="card-body">
+                              <h5 class="card-title">LiveTV</h5>
+                              <p class="card-text">Последний сайт, который мы делали по макету.</p>
+                              <a href="https://kseniaaly.github.io/LiveTV/" class="button">ПЕРЕЙТИ НА САЙТ</a>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide" style="width: 375px;">
+                            <img src="./assets/img/Mask group (4).png" class="card-img-top" alt="">
+                            <div class="card-body">
+                              <h5 class="card-title">Cyprus</h5>
+                              <p class="card-text">Первый сайт, который мы сделали на учебной практике.</p>
+                              <a href="https://kseniaaly.github.io/Cyprus/" class="button">ПЕРЕЙТИ НА САЙТ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 300,
+                modifier: 1,
+                slideShadows: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            });
+        </script>
+
+        <!--Создание секции "Мои контакты": .section.contacts>.container>.col*2-->
+        <div class="section contacts" id="contacts">
+            <div class="container">
+                <div class="titul">
+                    <h1>МОИ КОНТАКТЫ</h1>
+                    <img src="./assets/img/Group 2 (2).png" alt="">
+                </div>
+                <div class="main">
+                    <div class="col">
+                        <div class="href telegram">
+                            <img src="./assets/img/Vector.png" alt="">
+                            <a href="https://web.telegram.org/k/"><h5>@ksyusha_alysheva</h5></a>
+                        </div>
+                        <div class="href vk">
+                            <img src="./assets/img/Vector (1).png" alt="">
+                            <a href="https://github.com/KseniaAly"><h5>https://github.com/KseniaAly</h5></a>
+                        </div>
+                        <div class="href github">
+                            <img src="./assets/img/Vector (2).png" alt="">
+                            <a href="https://vk.com/id628193416"><h5>https://vk.com/id628193416</h5></a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="./assets/img/download20230901205604 1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Создание секции "Моя карьера": .section.career>.container>.titul+.main>.text+.images-->
+        <div class="section career" id="career">
+            <div class="container">
+                <div class="titul">
+                    <h1>МОЯ КАРЬЕРА</h1>
+                    <img src="./assets/img/Group 2 (3).png" alt="">
+                </div>
+                <div class="main">
+                    <div class="text">
+                        <h5>Создала сайт портфолио для учебной практики: 06.09.2024</h5>
+                        <h5>Начала изучать HTML и CSS: 06.09.2023</h5>
+                        <h5>Поступила в ГБПОУ НГК на специальность 09.02.07: 01.09.2022</h5>
+                        <h5>Выпустилась из школы №101: 2022</h5>
+                        <h5>Поступила в среднюю общеобразовательную школу №101 им. Е.Е.Дейч: 2013</h5>
+                        <h5>Пошла в детский садик: 2008</h5>
+                        <h5>Родилась: 30.07.2006</h5>
+                    </div>
+                    <div class="images">
+                        <div class="checkboxes">
+                            <img src="./assets/img/checkbox.png" alt="">
+                            <img src="./assets/img/checkbox.png" alt="">
+                            <img src="./assets/img/checkbox.png" alt="">
+                            <img src="./assets/img/checkbox.png" alt="">
+                            <img src="./assets/img/checkbox.png" alt="">
+                            <img src="./assets/img/checkbox.png" alt="">
+                            <img src="./assets/img/checkbox.png" alt="">
+                        </div>
+                        <img class="mountain" src="./assets/img/mountain.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Создание секции "Обратная связь": .section.feedback_form>.container>.titul+.main-->
+        <div class="section feedback_form" id="feedback">
+            <div class="container">
+                <div class="titul">
+                    <h1>ФОРМА ОБРАТНОЙ СВЯЗИ</h1>
+                    <img src="./assets/img/Group 2 (4).png" alt="">
+                </div>
+                <div class="main">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputName1" class="form-label">ФИО</label>
+                            <input type="text" class="form-control" id="exampleInputName1" required>
+                          </div>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                          <div id="emailHelp" class="form-text">Мы никогда никому не передадим вашу электронную почту.</div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputNumber1" class="form-label">Номер телефона</label>
+                          <input type="tel" class="form-control" id="exampleInputNumber1" required>
+                        </div>
+                        <a href="">
+                            <div class="button">
+                                <h6>ОБРАТИТЬСЯ К СПЕЦИАЛИСТУ</h6>
+                            </div>
+                        </a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!--Создание футера: .section>.container>.col*2-->
+        <div class="section">
+            <div class="container">
+                <div class="col">
+                    <h3>MY</h3>
+                    <h3>PORTFOLIO</h3>
+                </div>
+                <div class="col">
+                    <div class="col">
+                        <p>Номер телефона:</p>
+                        <p>+79588364986</p>
+                    </div>
+                    <div class="col">
+                        <p>Почта:</p>
+                        <p>ksenia.alysheva3@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
